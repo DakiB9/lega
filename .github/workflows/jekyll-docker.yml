@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegalizujMe - Sajt za legalizaciju marihuane</title>
+</head>
+<body>
+    
+</body>
+</html>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Početna</a></li>
+            <li><a href="#">O nama</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+    <h1>LegalizujMe</h1>
+    <p>Sajt za legalizaciju marihuane</p>
+</header>
+<section id="hero">
+    <div class="container">
+        <img src="images/hero.jpg" alt="LegalizujMe - Sajt za legalizaciju marihuane">
+        <div class="hero-text">
+            <h2>Dobrodošli na LegalizujMe</h2>
+            <p>Sajt za legalizaciju marihuane u Srbiji. Mi se zalažemo za legalizaciju i regulaciju tržišta marihuane u Srbiji, u skladu sa najboljim svetskim praksama. Pridružite nam se u borbi za slobodu izbora i prava na lični izbor.</p>
+            <a href="#" class="btn">Saznaj više</a>
+        </div>
+    </div>
+</section>
+    <div class="argument">
+        <h3>3. Smanjenje kriminala</h3>
+        <p>Legalizacija marihuane bi smanjila tržište ilegalne trgovine i time smanjila kriminal vezan za to. Takođe bi smanjila opterećenje pravosuđa.</p>
+    </div>
+    <div class="argument">
+        <h3>4. Medicinska upotreba</h3>
+        <p>Marihuana ima lekovita svojstva i može se koristiti u medicinske svrhe, kao što je ublažavanje bolova kod nekih bolesti i stanja. Legalizacija bi omogućila pacijentima da lakše i legalno pristupe lekovima na bazi marihuane.</p>
+    </div>
+</div>
+<section id="legislation">
+  <div class="container">
+    <h2>Zakonodavstvo u vezi sa marihuanom</h2>
+    <div class="law">
+      <h3>Legalizacija medicinske upotrebe</h3>
+      <p>U Srbiji je medicinska upotreba marihuane dozvoljena od 2017. godine, ali samo u vidu lekova sa odobrenim sastojcima kanabisa. Pacijenti koji boluju od teških bolesti kao što su multipleks skleroza, HIV/AIDS i maligni tumori mogu dobiti lekove na bazi kanabisa na recept.</p>
+    </div>
+    <div class="law">
+      <h3>Legalizacija rekreativne upotrebe</h3>
+      <p>U Srbiji je marihuana i dalje ilegalna za rekreativnu upotrebu. Zakon predviđa kaznu za posedovanje, uzgajanje i prodaju marihuane. Kazne se kreću od novčanih kazni do zatvorske kazne u trajanju od 3 do 12 meseci.</p>
+    </div>
+  </div>
+</section>
+<link rel="stylesheet" href="style.css">
+header {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+header p {
+  font-size: 18px;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #F9F9F9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0 0 20px;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0 0 15px;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+a {
+  color: #0080ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+img {
+   animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+   from { transform: rotate(0deg); }
+   to { transform: rotate(360deg); }
+}
+<div class="registration-form">
+  <h2>Registracija</h2>
+  <form>
+    <label for="username">Korisničko ime:</label>
+    <input type="text" id="username" name="username" required>
+    
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="password">Lozinka:</label>
+    <input type="password" id="password" name="password" required>
+    
+    <label for="age">Godine:</label>
+    <input type="number" id="age" name="age" required>
+    
+    <button type="submit">Registruj se</button>
+  </form>
+</div>
+.registration-form {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.registration-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.registration-form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+}
+
+.registration-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.registration-form button:hover {
+  background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+  .registration-form {
+    width: 80%;
+  }
+}
+<form id="register-form">
+  <div class="form-group">
+    <label for="username">Korisničko ime</label>
+    <input type="text" id="username" name="username" class="form-control">
+    <small id="username-error" class="text-danger"></small>
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" class="form-control">
+    <small id="email-error" class="text-danger"></small>
+  </div>
+  <div class="form-group">
+    <label for="password">Lozinka</label>
+    <input type="password" id="password" name="password" class="form-control">
+    <small id="password-error" class="text-danger"></small>
+  </div>
+  <div class="form-group">
+    <label for="age">Godine</label>
+    <input type="number" id="age" name="age" class="form-control">
+    <small id="age-error" class="text-danger"></small>
+  </div>
+  <button type="submit" class="btn btn-primary">Registruj se</button>
+</form>
+const registerForm = document.querySelector('#register-form');
+
+registerForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const usernameInput = document.querySelector('#username');
+  const emailInput = document.querySelector('#email');
+  const passwordInput = document.querySelector('#password');
+  const ageInput = document.querySelector('#age');
+
+  const username = usernameInput.value.trim();
+  const email = emailInput.value.trim();
+  const password = passwordInput.value.trim();
+  const age = Number(ageInput.value.trim());
+
+  const errors = [];
+
+  if (!username) {
+    errors.push('Unesite korisničko ime.');
+    document.querySelector('#username-error').textContent = 'Unesite korisničko ime.';
+  } else {
+    document.querySelector('#username-error').textContent = '';
+  }
+
+  if (!email) {
+    errors.push('Unesite email.');
+    document.querySelector('#email-error').textContent = 'Unesite email.';
+  } else {
+    document.querySelector('#email-error').textContent = '';
+  }
+
+  if (!password) {
+    errors.push('Unesite lozinku.');
+    document.querySelector('#password-error').textContent = 'Unesite lozinku.';
+  } else {
+    document.querySelector('#password-error').textContent = '';
+  }
+
+  if (isNaN(age) || age <= 0) {
+    errors.push('Unesite ispravne godine.');
+    document.querySelector('#age-error').textContent = 'Unesite ispravne godine.';
+  } else {
+    document.querySelector('#age-error').textContent = '';
+  }
+
+  if (errors.length === 0) {
+    // ovde dodajemo kod koji kreira novi korisnički nalog
+    alert('Uspešno ste se registrovali!');
+    usernameInput.value = '';
+    emailInput.value = '';
+    passwordInput.value = '';
+    ageInput.value = '';
+  }
+});
+<h2>Prijava na sistem</h2>
+<form id="login-form">
+  <div>
+    <label for="username">Korisničko ime ili email</label>
+    <input type="text" id="login-username" name="username">
+    <span id="login-username-error" class="error"></span>
+  </div>
+  <div>
+    <label for="password">Lozinka</label>
+    <input type="password" id="login-password" name="password">
+    <span id="login-password-error" class="error"></span>
+  </div>
+  <div>
+    <button type="submit">Prijavi se</button>
+  </div>
+</form>
+const loginForm = document.querySelector('#login-form');
+
+loginForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const usernameInput = document.querySelector('#login-username');
+  const passwordInput = document.querySelector('#login-password');
+
+  const username = usernameInput.value.trim();
+  const password = passwordInput.value.trim();
+
+  const errors = [];
+
+  if (!username) {
+    errors.push('Unesite korisničko ime ili email.');
+    document.querySelector('#login-username-error').textContent = 'Unesite korisničko ime ili email.';
+  } else {
+    document.querySelector('#login-username-error').textContent = '';
+  }
+
+  if (!password) {
+    errors.push('Unesite lozinku.');
+    document.querySelector('#login-password-error').textContent = 'Unesite lozinku.';
+  } else {
+    document.querySelector('#login-password-error').textContent = '';
+  }
+
+  if (errors.length === 0) {
+    // ovde dodajemo kod za proveru korisničkih podataka
+    alert('Uspešno ste se prijavili!');
+  }
+});
+// HTML kod za dugme "Promeni lozinku"
+<button id="change-password-button">Promeni lozinku</button>
+
+// JavaScript kod koji obrađuje klik na dugme "Promeni lozinku"
+const changePasswordButton = document.querySelector('#change-password-button');
+changePasswordButton.addEventListener('click', () => {
+  // preusmeravamo korisnika na stranicu za promenu lozinke
+  window.location.href = 'change-password.html';
+});
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moja aplikacija</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Dobrodošli na Moju aplikaciju</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Početna</a></li>
+        <li><a href="#">O nama</a></li>
+        <li><a href="#">Kontakt</a></li>
+        <li><a href="#">Prijavi se</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>O nama</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempor eros eu commodo rhoncus. Sed vulputate commodo tortor. Morbi fermentum urna ac lacus consectetur iaculis. Nunc euismod risus sed magna feugiat lacinia. Proin ac sapien vel mauris pellentesque ultrices. Nam vel justo id enim dapibus bibendum eu eget eros.</p>
+    </section>
+    <section>
+      <h2>Funkcionalnosti</h2>
+      <ul>
+        <li>Registracija</li>
+        <li>Prijava</li>
+        <li>Profil korisnika</li>
+        <li>Pretraga sadržaja</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Moja aplikacija</p>
+  </footer>
+</body>
+</html>
+<nav>
+  <ul>
+    <li><a href="#">Početna</a></li>
+    <li><a href="#">O nama</a></li>
+    <li><a href="#">Kontakt</a></li>
+    <li><a href="#">Prijava</a></li>
+    <li><a href="#">Registracija</a></li>
+  </ul>
+</nav>
+nav {
+  background-color: #333;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
